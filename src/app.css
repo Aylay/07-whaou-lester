@@ -26,8 +26,8 @@
 
 	--font-*: initial;
 	--font-base: 'fustat', Arial, sans-serif;
-	--font-title: 'Sirenia', Arial, sans-serif;
-	--font-title2: 'Black_Coffee', Arial, sans-serif;
+	--font-sirenia: 'Sirenia', Arial, sans-serif;
+	--font-coffee: 'Black_Coffee', Arial, sans-serif;
 
 	--spacing: 0.4rem;
 	--spacing-bigContainer: 120rem;
@@ -81,6 +81,39 @@
 	}
 
   .cta {
-    @apply py-2.5 px-3 uppercase text-cta font-title2 text-white bg-brown hover:bg-pink transition-colors;
+    @apply py-2.5 px-3 uppercase text-cta font-coffee text-white bg-brown hover:bg-pink transition-colors;
+  }
+
+  .text-stroke-outside-4 {
+    text-stroke: 6px theme('colors.white');
+    -webkit-text-stroke: 6px theme('colors.white');
+    paint-order: stroke fill;
+  }
+  .text-stroke-outside-6 {
+    text-stroke: 10px theme('colors.white');
+    -webkit-text-stroke: 10px theme('colors.white');
+    paint-order: stroke fill;
+  }
+
+  .bg-specific-brown {
+    @apply inline-block text-center font-sirenia relative;
+    background: transparent url('/img/bg/center.svg') repeat-x center;
+    background-size: auto 100%; 
+  }
+  .bg-specific-brown::before,
+  .bg-specific-brown::after {
+    @apply absolute inset-y-0 h-full content-[''] w-5;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .bg-specific-brown::before {
+    @apply left-[calc(-20px+1px)] -z-10;
+    background-image: url('/img/bg/before.svg');
+    background-position: center left;
+  }
+  .bg-specific-brown::after {
+    @apply right-[calc(-20px+1px)] -z-10;
+    background-image: url('/img/bg/after.svg');
+    background-position: center right;
   }
 }

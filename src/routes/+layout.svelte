@@ -25,6 +25,6 @@
 	<meta property="twitter:description" content={meta.description} />
 </svelte:head>
 
-<main>
+<main class="lg:min-h-dvh">
 	{@render children()}
 </main>

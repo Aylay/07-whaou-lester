@@ -1,29 +1,21 @@
 // src/lib/stores/game.store.ts
 
 import { writable } from 'svelte/store';
-import type { GameState, GameStatus } from '$lib/types/game.types';
+import type { GameState } from '$lib/types/game.types';
 
 interface GameStore {
 	currentState: GameState;
-	gameStatus: GameStatus | null;
 	participation: any | null;
 }
 
 function createGameStore() {
 	const { subscribe, set, update } = writable<GameStore>({
 		currentState: 'form',
-		gameStatus: null,
 		participation: null,
 	});
 
 	return {
 		subscribe,
-
-		setGameStatus: (status: GameStatus) =>
-			update((state) => ({
-				...state,
-				gameStatus: status
-			})),
 
 		setState: (newState: GameState) =>
 			update((state) => ({
@@ -39,8 +31,7 @@ function createGameStore() {
 
 		reset: () =>
 			set({
-				currentState: 'pre_home',
-				gameStatus: null,
+				currentState: 'form',
 				participation: null,
 			})
 	};

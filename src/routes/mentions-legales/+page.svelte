@@ -15,10 +15,10 @@
   </p>
 
   <div class="mt-12">
-		<h1 class="text-h4m font-bold lg:text-h4 text-brown font-title">Mentions légales</h1>
+		<h1 class="text-h4m lg:text-h4 text-brown font-sirenia text-stroke-outside-4">Mentions légales</h1>
 		<div class="flex flex-col gap-12 pt-12">
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">Informations légales</h2>
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">Informations légales</h2>
 				<p class="text-p">
 					Whaou! – Goûters Magiques<br />
 					Lieu-dit Kerichelard – ZA de Kerama, CS 70116 Plumelin, France<br />
@@ -30,7 +30,7 @@
 				</p>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">Création du site</h2>
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">Création du site</h2>
 				<p class="text-p">
 					Le site internet a été créé par <a
 						href="https://beavers-agency.fr/"
@@ -41,7 +41,7 @@
 				</p>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">
 					Directeur de la publication et webmaster
 				</h2>
 				<p class="text-p">
@@ -49,7 +49,7 @@
 				</p>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">Hébergement</h2>
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">Hébergement</h2>
 				<p class="text-p">
 					Vercel Inc.<br />
 					340 S Lemon Ave #4133<br />

@@ -15,10 +15,10 @@
   </p>
 
   <div class="mt-12">
-		<h1 class="text-h4m font-bold lg:text-h4 text-brown font-title">Politique de confidentialité</h1>
+		<h1 class="text-h4m lg:text-h4 text-brown font-sirenia text-stroke-outside-6">Politique de confidentialité</h1>
 		<div class="flex flex-col gap-12 pt-12">
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">1 - Informations légales</h2>
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">1 - Informations légales</h2>
 				<div class="flex flex-col gap-2">
 					<p class="text-p">
 						Ce document a pour objectif de donner les informations relatives au traitement des données du jeu avec obligation d’achat intitulé « Goûtez la Chandeleur » proposée sur le site internet www.jeu-chandeleur-lester-whaou.fr édité par la société GOÛTERS MAGIQUES, ci-après désignée la « Société Organisatrice ».
@@ -32,7 +32,7 @@
 				</div>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">2 - Données collectées</h2>
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">2 - Données collectées</h2>
 				<div class="flex flex-col gap-2">
 					<p class="text-p">
 						Les données personnelles collectées pour le Jeu :<br />
@@ -61,7 +61,7 @@ Vos données personnelles peuvent être collectées indirectement par l’interm
 				</div>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">
 					3 – DROIT RELATIFS AUX DONNÉES PERSONNELLES 
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -80,7 +80,7 @@ Vos données personnelles peuvent être collectées indirectement par l’interm
 				</div>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">
 					4 – DÉLÉGUÉ.E À LA PROTECTION DES DONNÉES
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -92,7 +92,7 @@ Vos données personnelles peuvent être collectées indirectement par l’interm
 				</div>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">
 					5 – DESTINATAIRE ET EXPLOITATION DES DONNÉES PERSONNELLES 
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -105,7 +105,7 @@ Vos données personnelles peuvent être collectées indirectement par l’interm
 				</div>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">
 					6 – TRAITEMENT DES DONNÉES PERSONNELLES 
 
 				</h2>
@@ -128,7 +128,7 @@ Vos données personnelles peuvent être collectées indirectement par l’interm
 				</div>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">
 				7 – BASES LÉGALES DU TRAITEMENT DES DONNÉES PERSONNELLES 
 
 
@@ -144,7 +144,7 @@ Vos données personnelles peuvent être collectées indirectement par l’interm
 				</div>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">
 				8 – SÉCURITÉ
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -154,7 +154,7 @@ Vos données personnelles peuvent être collectées indirectement par l’interm
 				</div>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">
 				9 – MISE À JOUR DE LA POLITIQUE DE CONFIDENTIALITÉ 
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -164,7 +164,7 @@ Vos données personnelles peuvent être collectées indirectement par l’interm
 				</div>
 			</div>
 			<div>
-				<h2 class="pb-3 font-title2 text-h7m lg:text-h7 text-yellow font-bold uppercase tracking-[1px]">
+				<h2 class="pb-3 font-coffee text-h7m lg:text-h7 text-yellow uppercase tracking-[1px]">
 				10 – UTILISATION DES COOKIES ET DONNÉES DE TRAÇAGE
 				</h2>
 				<div class="flex flex-col gap-2">

@@ -1,7 +1,7 @@
 // src/lib/types/game.types.ts
 
-export type GameStatus = 'not_started' | 'active' | 'ended';
-
 export type GameState =
-	| 'form'
-	| 'confirmation';
+	| 'not_started'  // Jeu pas encore commencé
+  | 'form'
+  | 'confirmation'
+  | 'ended';       // Jeu terminé

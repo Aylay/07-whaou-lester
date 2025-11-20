@@ -1,10 +1,10 @@
 // src/lib/services/game.service.ts
 
 import { DateTime } from 'luxon';
-import type { GameStatus } from '$lib/types/game.types';
+import type { GameState } from '$lib/types/game.types';
 
 export const gameService = {
-	getGameStatus(): GameStatus {
+	getGameState(): GameState {
 		const startDate = DateTime.fromISO('2025-12-15T00:00:01', {
 			zone: 'Europe/Paris',
 			locale: 'fr'
