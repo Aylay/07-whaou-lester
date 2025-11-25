@@ -1,0 +1,13 @@
+<script lang="ts">
+	let { newClass = '' } = $props();
+</script>
+
+<svg class={newClass} viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path
+		d="M1 3L3 5L7 1"
+		stroke="#BC085E"
+		stroke-width="2"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+	/>
+</svg>

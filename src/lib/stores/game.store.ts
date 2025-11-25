@@ -5,13 +5,11 @@ import type { GameState } from '$lib/types/game.types';
 
 interface GameStore {
 	currentState: GameState;
-	participation: any | null;
 }
 
 function createGameStore() {
 	const { subscribe, set, update } = writable<GameStore>({
-		currentState: 'form',
-		participation: null,
+		currentState: 'active'
 	});
 
 	return {
@@ -23,16 +21,9 @@ function createGameStore() {
 				currentState: newState
 			})),
 
-		setParticipation: (participation: any) =>
-			update((state) => ({
-				...state,
-				participation
-			})),
-
 		reset: () =>
 			set({
-				currentState: 'form',
-				participation: null,
+				currentState: 'active'
 			})
 	};
 }

@@ -1,28 +1,30 @@
 @import 'tailwindcss';
 
 @font-face {
-  font-family: 'Black_Coffee';
-  src: url('/fonts/blackcoffeeregular-bold.woff2') format('woff2'),
-      url('/fonts/blackcoffeeregular-bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
+	font-family: 'Black_Coffee';
+	src:
+		url('/fonts/blackcoffeeregular-bold.woff2') format('woff2'),
+		url('/fonts/blackcoffeeregular-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
 }
 @font-face {
-  font-family: 'Sirenia';
-  src: url('/fonts/sirenia-bold.woff2') format('woff2'),
-      url('/fonts/sirenia-bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
+	font-family: 'Sirenia';
+	src:
+		url('/fonts/sirenia-bold.woff2') format('woff2'),
+		url('/fonts/sirenia-bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
 }
 
 @theme {
-  --color-*: initial;
-  --color-white: #fff;
-  --color-brown: #5B101B;
-  --color-yellow: #FECC00;
-  --color-pink: #BC085E;
-  --color-red: #FF0004;
-  --color-greyperle: #D1D7D9;
+	--color-*: initial;
+	--color-white: #fff;
+	--color-brown: #5b101b;
+	--color-yellow: #fecc00;
+	--color-pink: #bc085e;
+	--color-red: #ff0004;
+	--color-greyperle: #d1d7d9;
 
 	--font-*: initial;
 	--font-base: 'fustat', Arial, sans-serif;
@@ -32,88 +34,88 @@
 	--spacing: 0.4rem;
 	--spacing-bigContainer: 120rem;
 
-  --text-*: initial;
-  --text-h1: 4.8rem;
-  --text-h1--line-height: 4.8rem;
-  --text-h1m: 3.2rem;
-  --text-h1m--line-height: 4rem;
-  --text-h2: 4.8rem;
-  --text-h2--line-height: 6rem;
-  --text-h2m: 3.2rem;
-  --text-h2m--line-height: 4rem;
-  --text-h3: 4rem;
-  --text-h3--line-height: 4rem;
-  --text-h3m: 2.4rem;
-  --text-h3m--line-height: 2.8rem;
-  --text-h4: 4rem;
-  --text-h4--line-height: 4rem;
-  --text-h4m: 2.4rem;
-  --text-h4m--line-height: 2.8rem;
-  --text-h5: 3.2rem;
-  --text-h5--line-height: 4rem;
-  --text-h5m: 2.4rem;
-  --text-h5m--line-height: 2.8rem;
-  --text-h6: 2rem;
-  --text-h6--line-height: 2rem;
-  --text-h6m: 1.6rem;
-  --text-h6m--line-height: 1.6rem;
-  --text-h7: 2.4rem;
-  --text-h7--line-height: 2.8rem;
-  --text-h7m: 1.6rem;
-  --text-h7m--line-height: 2rem;
-  --text-cta: 2.4rem;
-  --text-cta--line-height: 2.4rem;
-  --text-p: 1.6rem;
-  --text-p--line-height: 2rem;
-  --text-mention: 1.2rem;
-  --text-mention--line-height: 1.6rem;
+	--text-*: initial;
+	--text-h1: 4.8rem;
+	--text-h1--line-height: 4.8rem;
+	--text-h1m: 3.2rem;
+	--text-h1m--line-height: 4rem;
+	--text-h2: 4.8rem;
+	--text-h2--line-height: 6rem;
+	--text-h2m: 3.2rem;
+	--text-h2m--line-height: 4rem;
+	--text-h3: 4rem;
+	--text-h3--line-height: 4rem;
+	--text-h3m: 2.4rem;
+	--text-h3m--line-height: 2.8rem;
+	--text-h4: 4rem;
+	--text-h4--line-height: 4rem;
+	--text-h4m: 2.4rem;
+	--text-h4m--line-height: 2.8rem;
+	--text-h5: 3.2rem;
+	--text-h5--line-height: 4rem;
+	--text-h5m: 2.4rem;
+	--text-h5m--line-height: 2.8rem;
+	--text-h6: 2rem;
+	--text-h6--line-height: 2rem;
+	--text-h6m: 1.6rem;
+	--text-h6m--line-height: 1.6rem;
+	--text-h7: 2.4rem;
+	--text-h7--line-height: 2.8rem;
+	--text-h7m: 1.6rem;
+	--text-h7m--line-height: 2rem;
+	--text-cta: 2.4rem;
+	--text-cta--line-height: 2.4rem;
+	--text-p: 1.6rem;
+	--text-p--line-height: 2rem;
+	--text-mention: 1.2rem;
+	--text-mention--line-height: 1.6rem;
 }
 
 @layer base {
-  html {
-    @apply bg-pink font-base font-semibold text-[10px] text-white;
-  }
+	html {
+		@apply bg-pink font-base text-[10px] font-semibold text-white;
+	}
 }
 
 @layer components {
 	.bigContainer {
-		@apply mx-auto w-full max-w-bigContainer max-lg:px-6;
+		@apply max-w-bigContainer mx-auto w-full max-lg:px-6;
 	}
 
-  .cta {
-    @apply py-2.5 px-3 uppercase text-cta font-coffee text-white bg-brown hover:bg-pink transition-colors;
-  }
+	.cta {
+		@apply text-cta font-coffee bg-brown hover:bg-pink cursor-pointer rounded-[1.4rem] px-3 py-2.5 text-white uppercase transition-colors;
+	}
 
-  .text-stroke-outside-4 {
-    text-stroke: 6px theme('colors.white');
-    -webkit-text-stroke: 6px theme('colors.white');
-    paint-order: stroke fill;
-  }
-  .text-stroke-outside-6 {
-    text-stroke: 10px theme('colors.white');
-    -webkit-text-stroke: 10px theme('colors.white');
-    paint-order: stroke fill;
-  }
+	.text-stroke-outside-4 {
+		text-stroke: 6px theme('colors.white');
+		-webkit-text-stroke: 6px theme('colors.white');
+		paint-order: stroke fill;
+	}
+	.text-stroke-outside-6 {
+		text-stroke: 10px theme('colors.white');
+		-webkit-text-stroke: 10px theme('colors.white');
+		paint-order: stroke fill;
+	}
 
-  .bg-specific-brown {
-    @apply inline-block text-center font-sirenia relative;
-    background: transparent url('/img/bg/center.svg') repeat-x center;
-    background-size: auto 100%; 
-  }
-  .bg-specific-brown::before,
-  .bg-specific-brown::after {
-    @apply absolute inset-y-0 h-full content-[''] w-5;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-  .bg-specific-brown::before {
-    @apply left-[calc(-20px+1px)] -z-10;
-    background-image: url('/img/bg/before.svg');
-    background-position: center left;
-  }
-  .bg-specific-brown::after {
-    @apply right-[calc(-20px+1px)] -z-10;
-    background-image: url('/img/bg/after.svg');
-    background-position: center right;
-  }
+	.bg-specific-brown {
+		@apply font-sirenia relative inline-block text-center;
+		background: transparent url('/img/bg/center.svg') repeat-x center;
+		background-size: auto 100%;
+	}
+	.bg-specific-brown::before,
+	.bg-specific-brown::after {
+		@apply absolute inset-y-0 h-full w-5 content-[''];
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	.bg-specific-brown::before {
+		@apply left-[calc(-20px+1px)] -z-10;
+		background-image: url('/img/bg/before.svg');
+		background-position: center left;
+	}
+	.bg-specific-brown::after {
+		@apply right-[calc(-20px+1px)] -z-10;
+		background-image: url('/img/bg/after.svg');
+		background-position: center right;
+	}
 }

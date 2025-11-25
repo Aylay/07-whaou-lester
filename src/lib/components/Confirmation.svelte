@@ -7,7 +7,9 @@
 	<p class="bg-specific-brown text-h6m lg:text-h6 py-2">Du 15/12/2025 au 15/03/2026</p>
 </div>
 <div class="bg-yellow mt-5 rounded-[1.6rem] pt-5.5 pb-4 text-center">
-	<span class="text-h3m lg:text-h3 text-brown font-coffee tracking-[1px] uppercase">Le jeu de</span
+	<span class="text-h3m lg:text-h3 text-pink font-coffee tracking-[1px] uppercase"
+		>Merci pour <br class="max-lg:hidden" />votre <br class="lg:hidden" />participation
+		<br class="max-lg:hidden" />au jeu de</span
 	><br />
 	<span
 		class="text-h4m lg:text-h4 text-brown font-sirenia text-stroke-outside-6 mt-1.5 mb-0.5 inline-block lg:my-1.5"
@@ -15,23 +17,23 @@
 	><br />
 	<span class="text-h3m lg:text-h3 text-pink font-coffee tracking-[1px] uppercase"
 		>Whaou! et Le ster</span
-	><br />
-	<span class="text-h3m lg:text-h3 text-brown font-coffee tracking-[1px] uppercase"
-		>n'a pas encore <br class="max-lg:hidden" />commencé...</span
 	>
 </div>
 <p
-	class="text-h3m lg:text-h3 font-coffee mt-8 mb-2 text-center tracking-[1px] text-white uppercase"
+	class="text-h7m lg:text-h7 font-coffee mt-8 mb-2 text-center tracking-[1px] text-white uppercase"
 >
-	rendez-vous sur <br />ce site à partir
+	Les gagnants seront tirés au sort
 </p>
 <div class="text-center">
-	<p class="bg-specific-brown text-h5m lg:text-h5 py-2 lg:py-1">du 15 décembre 2025</p>
+	<p class="bg-specific-brown text-h6m lg:text-h6 py-2">le 20 mars 2026 au plus tard</p>
 </div>
-<p
-	class="text-h3m lg:text-h3 text-yellow font-coffee mt-3 mb-8 text-center tracking-[1px] uppercase"
->
-	pour tenter votre chance&nbsp;!
+<p class="text-h7m lg:text-h7 font-coffee my-2 text-center tracking-[1px] text-white uppercase">
+	et contactés par e-mail pour<br />
+	leur remettre leur cadeau !
+</p>
+<p class="text-p mt-2 mb-8 text-center font-medium">
+	N’oubliez pas de conserver votre preuve d’achat, elle peut vous être demandée dans la cadre de la
+	gestion de l’offre.
 </p>
 <MobileArtifice1 />
 <p class="text-h7m lg:text-h7 font-coffee text-center tracking-[1px] text-white uppercase">

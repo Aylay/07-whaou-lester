@@ -31,19 +31,20 @@ export const validationService = {
 		if (!data.eanCode.trim()) {
 			errors.eanCode = 'Le code-barres du produit est obligatoire';
 		} else if (!this.isValidEAN(data.eanCode)) {
-			errors.eanCode = 'Ce code-barres n\'est pas valide pour ce jeu';
+			errors.eanCode = "Ce code-barres n'est pas valide pour ce jeu";
 		}
 
 		// Ticket d'achat
 		if (!data.receiptFile) {
-			errors.receiptFile = 'Le ticket d\'achat est obligatoire';
+			errors.receiptFile = "Le ticket d'achat est obligatoire";
 		} else if (!this.isValidImageFile(data.receiptFile)) {
 			errors.receiptFile = 'Le fichier doit être une image (JPG, PNG, PDF)';
 		}
 
 		// RGPD
 		if (!data.rgpd) {
-			errors.store = 'Vous devez accepter que vos données puissent être recueillies et conservées pour participer au jeu';
+			errors.rgpd =
+				'Vous devez accepter que vos données puissent être recueillies et conservées pour participer au jeu';
 		}
 
 		// Règlement (obligatoire)
@@ -53,12 +54,13 @@ export const validationService = {
 
 		// Age (obligatoire)
 		if (!data.age) {
-			errors.age = "Vous devez certifier avoir plus de 18 ans ou avoir obtenu l'autorisation parentale pour participer au jeu";
+			errors.age =
+				"Vous devez certifier avoir plus de 18 ans ou avoir obtenu l'autorisation parentale pour participer au jeu";
 		}
 
 		// Message global si erreurs
 		if (Object.keys(errors).length > 0) {
-			errors.global = 'Veuillez corriger les erreurs ci-dessus';
+			errors.global = 'Veuillez corriger les erreurs ci-dessus.';
 		}
 
 		return errors;

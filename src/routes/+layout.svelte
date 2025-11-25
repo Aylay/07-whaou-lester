@@ -1,14 +1,15 @@
 <script lang="ts">
 	import '../app.css';
-	
+
 	import { page } from '$app/state';
-	
+
 	let { children } = $props();
 
 	const meta = {
 		title: 'Grand Jeu Goutez la Chandeleur avec Whaou! Et LeSter !',
-		description: 'Célébrez la Chandeleur avec Whaou! Et LeSter ! Jouez et tentez de gagner 1 expérience insolite à partager d’une valeur de 1000 euros !'
-	}
+		description:
+			'Célébrez la Chandeleur avec Whaou! Et LeSter ! Jouez et tentez de gagner 1 expérience insolite à partager d’une valeur de 1000 euros !'
+	};
 </script>
 
 <svelte:head>
@@ -25,6 +26,6 @@
 	<meta property="twitter:description" content={meta.description} />
 </svelte:head>
 
-<main class="lg:min-h-dvh">
+<main>
 	{@render children()}
 </main>

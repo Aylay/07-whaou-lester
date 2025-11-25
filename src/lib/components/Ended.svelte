@@ -17,21 +17,11 @@
 		>Whaou! et Le ster</span
 	><br />
 	<span class="text-h3m lg:text-h3 text-brown font-coffee tracking-[1px] uppercase"
-		>n'a pas encore <br class="max-lg:hidden" />commencé...</span
+		>est à présent <br class="max-lg:hidden" />terminé !</span
 	>
 </div>
-<p
-	class="text-h3m lg:text-h3 font-coffee mt-8 mb-2 text-center tracking-[1px] text-white uppercase"
->
-	rendez-vous sur <br />ce site à partir
-</p>
-<div class="text-center">
-	<p class="bg-specific-brown text-h5m lg:text-h5 py-2 lg:py-1">du 15 décembre 2025</p>
-</div>
-<p
-	class="text-h3m lg:text-h3 text-yellow font-coffee mt-3 mb-8 text-center tracking-[1px] uppercase"
->
-	pour tenter votre chance&nbsp;!
+<p class="text-p mt-2 mb-8 text-center font-medium">
+	Pensez à prendre connaissance de vos e-mails pour découvrir le résultat du tirage au sort.
 </p>
 <MobileArtifice1 />
 <p class="text-h7m lg:text-h7 font-coffee text-center tracking-[1px] text-white uppercase">
