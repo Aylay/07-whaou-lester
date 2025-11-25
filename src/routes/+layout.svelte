@@ -3,6 +3,9 @@
 
 	import { page } from '$app/state';
 
+	import GTM from 'svelte-gtm/GTM.svelte';
+	import GTMDataLayer from 'svelte-gtm/GTMDataLayer.svelte';
+
 	let { children } = $props();
 
 	const meta = {
@@ -15,6 +18,9 @@
 <svelte:head>
 	{#if page.url.host.includes('preprod')}
 		<meta name="robots" content="noindex, nofollow" />
+	{:else}
+		<GTM gtmID="GTM-TGX9HPK5" />
+		<GTMDataLayer />
 	{/if}
 
 	<title>{meta.title}</title>
