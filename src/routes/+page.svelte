@@ -19,7 +19,7 @@
 		}
 
 		// const state = gameService.getGameState();
-		const state = 'ended';
+		const state = 'active';
 		gameStore.setState(state);
 	});
 </script>
