@@ -9,7 +9,7 @@
 	import TextField from './form/TextField.svelte';
 	import FileUploadField from './form/FileUploadField.svelte';
 
-	const DEV_MODE = true;
+	const DEV_MODE = false;
 	let formData: FormData = $state(
 		DEV_MODE
 			? {
