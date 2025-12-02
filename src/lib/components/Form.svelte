@@ -148,7 +148,7 @@
 		<EmailField label="Email" name="email" bind:value={formData.email} error={errors.email} />
 		<div>
 			<TextField
-				label="Code barre EAN"
+				label="Code-barres EAN (13 chiffres)"
 				name="eanCode"
 				bind:value={formData.eanCode}
 				error={errors.eanCode}
@@ -161,18 +161,26 @@
 			</div>
 		</div>
 
-		<FileUploadField
-			name="receiptFile"
-			placeholder="Télécharger la preuve d'achat"
-			buttonText="Parcourir"
-			bind:value={formData.receiptFile}
-			error={errors.receiptFile}
-		/>
+		<div>
+			<FileUploadField
+				name="receiptFile"
+				placeholder="Télécharger la preuve d'achat"
+				buttonText="Parcourir"
+				bind:value={formData.receiptFile}
+				error={errors.receiptFile}
+			/>
+			<div class="mt-1 flex items-center justify-between">
+				<p class="text-mention text-brown font-medium">
+					JPG / PNG / PDF - max. 2 Mo
+				</p>
+				<Info newClass="w-3 h-auto" />
+			</div>
+		</div>
 
 		<div class="flex flex-col gap-1">
 			<CheckboxField name="rgpd" bind:checked={formData.rgpd} error={errors.rgpd}>
 				J’accepte que mes données soient recueillies et conservées pour gérer ma participation au
-				Jeu*
+				Jeu*.
 			</CheckboxField>
 			<CheckboxField
 				name="acceptReglement"

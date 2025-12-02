@@ -33,8 +33,8 @@
 <p
 	class="text-h7m lg:text-h7 font-coffee my-2 mb-6 text-center tracking-[0.8px] text-white uppercase"
 >
-	sous la forme d'un bon ou d'un e-code<br />
-	cadeau valable sur le site
+	sous la forme d'un e-code cadeau<br />
+	valable sur le site
 	<a
 		href="https://www.funbooker.com/fr/"
 		title="funbooker"
