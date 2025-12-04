@@ -28,10 +28,10 @@
 
 <div class="bigContainer flex gap-6 lg:min-h-[calc(100dvh-24rem)]">
 	{#if !isMobile}
-		<p class="flex-1">&nbsp;</p>
+		<p class="flex-2">&nbsp;</p>
 	{/if}
 
-	<div class="relative z-40 mt-5 flex-1 lg:mb-7">
+	<div class="relative z-40 mt-5 flex-3 lg:mb-7">
 		{#if $gameStore.currentState === 'not_started'}
 			<NotStarted />
 		{:else if $gameStore.currentState === 'ended'}
@@ -44,7 +44,7 @@
 	</div>
 
 	{#if !isMobile}
-		<p class="flex-1">&nbsp;</p>
+		<p class="flex-2">&nbsp;</p>
 	{/if}
 </div>
 
