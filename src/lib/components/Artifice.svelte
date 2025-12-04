@@ -43,7 +43,7 @@
 	</section>
 {/if}
 
-<section class="fixed inset-x-0 top-[30dvh] z-0">
+<section class="fixed inset-x-0 top-[33dvh] z-0">
 	<div class="bigContainer flex gap-6">
 		<p class="flex-2">&nbsp;</p>
 		<p class="flex-3">&nbsp;</p>
