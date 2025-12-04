@@ -114,7 +114,7 @@ function generateEmailHTML(): string {
                           <tbody>
                             <tr>
                               <td style="width:600px;">
-                                <img alt="Goûtez la Changeleur" src="http://localhost:5173/img/email/main.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600" height="auto" />
+                                <img alt="Goûtez la Changeleur" src="${PUBLIC_SITE_URL}/img/email/main.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600" height="auto" />
                               </td>
                             </tr>
                           </tbody>
