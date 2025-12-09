@@ -30,15 +30,15 @@
 		{value}
 		{autocomplete}
 		oninput={handleInput}
-		class="text-p placeholder:text-brown w-full rounded-[1.4rem] border-2 bg-white px-4 py-3 font-extrabold transition-all outline-none placeholder:font-semibold {error
+		class="w-full rounded-[1.4rem] border-2 bg-white px-4 py-3 text-p font-extrabold transition-all outline-none placeholder:font-semibold placeholder:text-brown {error
 			? 'border-red text-red'
-			: 'text-pink border-white'}"
+			: 'border-white text-pink'}"
 		aria-invalid={error ? 'true' : 'false'}
 		aria-describedby={error ? `${name}-error` : undefined}
 		placeholder={label}
 	/>
 
 	{#if error}
-		<p class="text-mention text-red mt-1 text-left">{error}</p>
+		<p class="mt-1 text-left text-mention text-red">{error}</p>
 	{/if}
 </div>

@@ -4,37 +4,37 @@
 </script>
 
 <div class="text-center">
-	<p class="bg-specific-brown text-h6m lg:text-h6 py-2">Du 15/12/2025 au 15/03/2026</p>
+	<p class="bg-specific-brown py-2 text-h6m lg:text-h6">Du 15/12/2025 au 15/03/2026</p>
 </div>
-<div class="bg-yellow mt-5 rounded-[1.6rem] pt-5.5 pb-4 text-center">
-	<span class="text-h3m lg:text-h3 text-brown font-coffee tracking-[1px] uppercase">Le jeu de</span
+<div class="mt-5 rounded-[1.6rem] bg-yellow pt-5.5 pb-4 text-center">
+	<span class="font-coffee text-h3m tracking-[1px] text-brown uppercase lg:text-h3">Le jeu de</span
 	><br />
 	<span
-		class="text-h4m lg:text-h4 text-brown font-sirenia text-stroke-outside-6 mt-1.5 mb-0.5 inline-block lg:my-1.5"
+		class="text-stroke-outside-6 mt-1.5 mb-0.5 inline-block font-sirenia text-h4m text-brown lg:my-1.5 lg:text-h4"
 		>la Chandeleur</span
 	><br />
-	<span class="text-h3m lg:text-h3 text-pink font-coffee tracking-[1px] uppercase"
+	<span class="font-coffee text-h3m tracking-[1px] text-pink uppercase lg:text-h3"
 		>Whaou! et Le ster</span
 	><br />
-	<span class="text-h3m lg:text-h3 text-brown font-coffee tracking-[1px] uppercase"
+	<span class="font-coffee text-h3m tracking-[1px] text-brown uppercase lg:text-h3"
 		>n'a pas encore <br class="max-lg:hidden" />commencé...</span
 	>
 </div>
 <p
-	class="text-h3m lg:text-h3 font-coffee mt-8 mb-2 text-center tracking-[1px] text-white uppercase"
+	class="mt-8 mb-2 text-center font-coffee text-h3m tracking-[1px] text-white uppercase lg:text-h3"
 >
 	rendez-vous sur <br />ce site à partir
 </p>
 <div class="text-center">
-	<p class="bg-specific-brown text-h5m lg:text-h5 py-2 lg:py-1">du 15 décembre 2025</p>
+	<p class="bg-specific-brown py-2 text-h5m lg:py-1 lg:text-h5">du 15 décembre 2025</p>
 </div>
 <p
-	class="text-h3m lg:text-h3 text-yellow font-coffee mt-3 mb-8 text-center tracking-[1px] uppercase"
+	class="mt-3 mb-8 text-center font-coffee text-h3m tracking-[1px] text-yellow uppercase lg:text-h3"
 >
 	pour tenter votre chance&nbsp;!
 </p>
 <MobileArtifice1 />
-<p class="text-h7m lg:text-h7 font-coffee text-center tracking-[1px] text-white uppercase">
+<p class="text-center font-coffee text-h7m tracking-[1px] text-white uppercase lg:text-h7">
 	En attendant, découvrez <br />
 	toutes nos gourmandises sur <br /><a
 		href="https://www.lesterlepatissier.com/"

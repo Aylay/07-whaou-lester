@@ -88,7 +88,7 @@
 		/>
 
 		<div
-			class="text-p flex-1 cursor-pointer py-3 pr-2 pl-4 text-left"
+			class="flex-1 cursor-pointer py-3 pr-2 pl-4 text-left text-p"
 			onclick={handleClick}
 			role="button"
 			tabindex="0"
@@ -100,20 +100,20 @@
 			}}
 		>
 			{#if hasFile}
-				<span class="text-pink font-extrabold"
+				<span class="font-extrabold text-pink"
 					>{value?.name && value?.name.length > 22
 						? value?.name.substring(0, 22) + '...'
 						: value?.name}</span
 				>
 			{:else}
-				<span class="text-brown font-semibold">{placeholder}</span>
+				<span class="font-semibold text-brown">{placeholder}</span>
 			{/if}
 		</div>
 
 		{#if hasFile}
 			<button
 				type="button"
-				class="text-p text-pink before:bg-greyperle relative flex h-full cursor-pointer items-center px-4 py-2 before:absolute before:inset-y-0 before:left-0 before:h-full before:w-px"
+				class="relative flex h-full cursor-pointer items-center px-4 py-2 text-p text-pink before:absolute before:inset-y-0 before:left-0 before:h-full before:w-px before:bg-greyperle"
 				onclick={handleRemove}
 				{disabled}
 			>
@@ -122,7 +122,7 @@
 		{:else}
 			<button
 				type="button"
-				class="text-p text-pink before:bg-greyperle relative flex h-full cursor-pointer items-center px-4 py-2 before:absolute before:inset-y-0 before:left-0 before:h-full before:w-px"
+				class="relative flex h-full cursor-pointer items-center px-4 py-2 text-p text-pink before:absolute before:inset-y-0 before:left-0 before:h-full before:w-px before:bg-greyperle"
 				onclick={handleClick}
 				{disabled}
 			>
@@ -132,6 +132,6 @@
 	</div>
 
 	{#if localError}
-		<p class="text-mention text-red mt-1 text-left">{localError}</p>
+		<p class="mt-1 text-left text-mention text-red">{localError}</p>
 	{/if}
 </div>

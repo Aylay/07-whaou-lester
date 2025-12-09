@@ -248,7 +248,7 @@ export const POST: RequestHandler = async ({ request }) => {
 					name: firstName
 				}
 			],
-      replyTo: { email: 'whaoulester-chandeleur@tmsw.com'	},
+			replyTo: { email: 'whaoulester-chandeleur@tmsw.com' },
 			subject: 'Jeu « Goûter la Chandeleur » : Votre participation est enregistrée',
 			htmlContent: htmlContent
 		};

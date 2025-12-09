@@ -16,7 +16,7 @@
 	});
 </script>
 
-<header class="bg-brown relative pt-6 lg:flex lg:items-start lg:justify-center lg:gap-37 lg:pt-12">
+<header class="relative bg-brown pt-6 lg:flex lg:items-start lg:justify-center lg:gap-37 lg:pt-12">
 	{#if isMobile}
 		<div class="flex justify-between px-6">
 			<Whaou newClass="w-25 h-auto relative z-10" />

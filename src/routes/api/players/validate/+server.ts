@@ -11,8 +11,16 @@ export const POST: RequestHandler = async ({ request }) => {
 
 		// Date du jour (début et fin) en UTC pour Strapi
 		const today = DateTime.now().setZone('Europe/Paris');
-		const startOfDay = today.startOf('day').toUTC().toISO().replace(/\+\d{2}:\d{2}$/, 'Z');
-		const endOfDay = today.endOf('day').toUTC().toISO().replace(/\+\d{2}:\d{2}$/, 'Z');
+		const startOfDay = today
+			.startOf('day')
+			.toUTC()
+			.toISO()
+			.replace(/\+\d{2}:\d{2}$/, 'Z');
+		const endOfDay = today
+			.endOf('day')
+			.toUTC()
+			.toISO()
+			.replace(/\+\d{2}:\d{2}$/, 'Z');
 
 		// 1. Vérifier si l'email a déjà participé aujourd'hui
 		const emailCheckUrl = `${STRAPI_URL}/api/players?filters[email][$eq]=${encodeURIComponent(email)}&filters[createdAt][$gte]=${startOfDay}&filters[createdAt][$lte]=${endOfDay}`;
@@ -23,11 +31,10 @@ export const POST: RequestHandler = async ({ request }) => {
 			}
 		});
 
-
 		if (!emailCheckResponse.ok) {
 			const errorText = await emailCheckResponse.text();
 			console.error('❌ Erreur Strapi email check:', errorText.substring(0, 500));
-			throw new Error('Erreur lors de la vérification de l\'email');
+			throw new Error("Erreur lors de la vérification de l'email");
 		}
 
 		const emailData = await emailCheckResponse.json();
@@ -35,7 +42,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		if (emailData.data.length > 0) {
 			return json({
 				valid: false,
-				error: 'Vous avez déjà participé aujourd\'hui. Revenez demain !'
+				error: "Vous avez déjà participé aujourd'hui. Revenez demain !"
 			});
 		}
 
@@ -59,7 +66,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		if (nameData.data.length > 0) {
 			return json({
 				valid: false,
-				error: 'Vous avez déjà participé aujourd\'hui. Revenez demain !'
+				error: "Vous avez déjà participé aujourd'hui. Revenez demain !"
 			});
 		}
 

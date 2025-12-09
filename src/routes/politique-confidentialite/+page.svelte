@@ -8,19 +8,19 @@
 
 <section class="bigContainer pt-3 pb-18">
 	<p class="flex">
-		<a href="/" class="text-p flex items-center gap-4" title="Retour au jeu">
+		<a href="/" class="flex items-center gap-4 text-p" title="Retour au jeu">
 			<Arrow newClass="w-5 h-auto" fill="#FECC00" />
 			<span class="text-p">Retour au jeu </span>
 		</a>
 	</p>
 
 	<div class="mt-12">
-		<h1 class="text-h4m lg:text-h4 text-brown font-sirenia text-stroke-outside-6">
+		<h1 class="text-stroke-outside-6 font-sirenia text-h4m text-brown lg:text-h4">
 			Politique de confidentialité
 		</h1>
 		<div class="flex flex-col gap-12 pt-12">
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					1 - Informations légales
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -41,7 +41,7 @@
 				</div>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					2 - Données collectées
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -81,7 +81,7 @@
 				</div>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					3 – DROIT RELATIFS AUX DONNÉES PERSONNELLES
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -111,7 +111,7 @@
 				</div>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					4 – DÉLÉGUÉ.E À LA PROTECTION DES DONNÉES
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -125,7 +125,7 @@
 				</div>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					5 – DESTINATAIRE ET EXPLOITATION DES DONNÉES PERSONNELLES
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -143,7 +143,7 @@
 				</div>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					6 – TRAITEMENT DES DONNÉES PERSONNELLES
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -173,7 +173,7 @@
 				</div>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					7 – BASES LÉGALES DU TRAITEMENT DES DONNÉES PERSONNELLES
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -189,7 +189,7 @@
 				</div>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					8 – SÉCURITÉ
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -201,7 +201,7 @@
 				</div>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					9 – MISE À JOUR DE LA POLITIQUE DE CONFIDENTIALITÉ
 				</h2>
 				<div class="flex flex-col gap-2">
@@ -213,7 +213,7 @@
 				</div>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					10 – UTILISATION DES COOKIES ET DONNÉES DE TRAÇAGE
 				</h2>
 				<div class="flex flex-col gap-2">

@@ -19,7 +19,7 @@
 			<img src="/img/crepes1.webp" alt="crepes Whaou!" class="h-auto w-full" />
 			<Plane newClass="rotate-[14.31deg] w-[36.5%] right-[10%] bottom-[92%] absolute" />
 		</div>
-		<div class="flex-1 flex items-center justify-center">
+		<div class="flex flex-1 items-center justify-center">
 			<img src="/img/pancake1.webp" alt="pancake" class="h-auto w-4/5" />
 		</div>
 	</div>

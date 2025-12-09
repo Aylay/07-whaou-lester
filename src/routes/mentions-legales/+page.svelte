@@ -8,19 +8,19 @@
 
 <section class="bigContainer pt-3 pb-18">
 	<p class="flex">
-		<a href="/" class="text-p flex items-center gap-4" title="Retour au jeu">
+		<a href="/" class="flex items-center gap-4 text-p" title="Retour au jeu">
 			<Arrow newClass="w-5 h-auto" fill="#FECC00" />
 			<span class="text-p">Retour au jeu </span>
 		</a>
 	</p>
 
 	<div class="mt-12">
-		<h1 class="text-h4m lg:text-h4 text-brown font-sirenia text-stroke-outside-4">
+		<h1 class="text-stroke-outside-4 font-sirenia text-h4m text-brown lg:text-h4">
 			Mentions légales
 		</h1>
 		<div class="flex flex-col gap-12 pt-12">
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					Informations légales
 				</h2>
 				<p class="text-p">
@@ -38,7 +38,7 @@
 				</p>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					Création du site
 				</h2>
 				<p class="text-p">
@@ -51,13 +51,13 @@
 				</p>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					Directeur de la publication et webmaster
 				</h2>
 				<p class="text-p">Jean-Luc Dénécé - Personne physique</p>
 			</div>
 			<div>
-				<h2 class="font-coffee text-h7m lg:text-h7 text-yellow pb-3 tracking-[1px] uppercase">
+				<h2 class="pb-3 font-coffee text-h7m tracking-[1px] text-yellow uppercase lg:text-h7">
 					Hébergement
 				</h2>
 				<p class="text-p">

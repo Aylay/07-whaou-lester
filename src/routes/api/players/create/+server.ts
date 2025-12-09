@@ -35,7 +35,10 @@ export const POST: RequestHandler = async ({ request }) => {
 		if (!uploadResponse.ok) {
 			const responseText = await uploadResponse.text();
 			console.error('❌ Erreur upload Strapi (text):', responseText.substring(0, 500));
-			return json({ message: `Erreur lors de l'upload du fichier (${uploadResponse.status})` }, { status: 500 });
+			return json(
+				{ message: `Erreur lors de l'upload du fichier (${uploadResponse.status})` },
+				{ status: 500 }
+			);
 		}
 
 		const uploadResult = await uploadResponse.json();
@@ -61,11 +64,13 @@ export const POST: RequestHandler = async ({ request }) => {
 			body: JSON.stringify(playerData)
 		});
 
-
 		if (!playerResponse.ok) {
 			const responseText = await playerResponse.text();
 			console.error('❌ Erreur création player (text):', responseText.substring(0, 500));
-			return json({ message: `Erreur lors de la création du joueur (${playerResponse.status})` }, { status: 500 });
+			return json(
+				{ message: `Erreur lors de la création du joueur (${playerResponse.status})` },
+				{ status: 500 }
+			);
 		}
 
 		const playerResult = await playerResponse.json();

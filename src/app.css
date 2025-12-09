@@ -79,11 +79,11 @@
 
 @layer components {
 	.bigContainer {
-		@apply max-w-bigContainer mx-auto w-full max-lg:px-6;
+		@apply mx-auto w-full max-w-bigContainer max-lg:px-6;
 	}
 
 	.cta {
-		@apply text-cta font-coffee bg-brown hover:bg-pink cursor-pointer rounded-[1.4rem] px-3 py-2.5 text-white uppercase transition-colors;
+		@apply cursor-pointer rounded-[1.4rem] bg-brown px-3 py-2.5 font-coffee text-cta text-white uppercase transition-colors hover:bg-pink;
 	}
 
 	.text-stroke-outside-4 {
@@ -98,7 +98,7 @@
 	}
 
 	.bg-specific-brown {
-		@apply font-sirenia relative inline-block text-center;
+		@apply relative inline-block text-center font-sirenia;
 		background: transparent url('/img/bg/center.svg') repeat-x center;
 		background-size: auto 100%;
 	}

@@ -44,7 +44,7 @@
 
 		// Validation
 		errors = validationService.validateForm(formData);
-		
+
 		if (Object.keys(errors).length > 0) return;
 
 		isSubmitting = true;
@@ -69,7 +69,7 @@
 				errors.global = validateResult.error || 'Validation échouée';
 				return;
 			}
-			
+
 			// 2. Créer le Player dans Strapi
 			const data = new FormData();
 			data.append('firstName', formData.firstName);
@@ -123,12 +123,12 @@
 	}
 </script>
 
-<div class="bg-yellow rounded-[1.6rem] px-5 py-6 text-center">
-	<p class="text-pink text-h5m lg:text-h5 font-sirenia text-center">Pour participer,</p>
-	<p class="text-brown text-p text-center font-extrabold">
+<div class="rounded-[1.6rem] bg-yellow px-5 py-6 text-center">
+	<p class="text-center font-sirenia text-h5m text-pink lg:text-h5">Pour participer,</p>
+	<p class="text-center text-p font-extrabold text-brown">
 		veuillez remplir le formulaire ci-dessous.
 	</p>
-	<p class="text-brown text-mention mt-1 text-center font-medium">
+	<p class="mt-1 text-center text-mention font-medium text-brown">
 		Tous les champs sont obligatoires.
 	</p>
 	<form
@@ -154,7 +154,7 @@
 				error={errors.eanCode}
 			/>
 			<div class="mt-1 flex items-center justify-between">
-				<p class="text-mention text-brown font-medium">
+				<p class="text-mention font-medium text-brown">
 					Inscrit sur votre produit Whaou! ou Le Ster éligibles.
 				</p>
 				<Info newClass="w-3 h-auto" />
@@ -170,9 +170,7 @@
 				error={errors.receiptFile}
 			/>
 			<div class="mt-1 flex items-center justify-between">
-				<p class="text-mention text-brown font-medium">
-					JPG / PNG / PDF - max. 2 Mo
-				</p>
+				<p class="text-mention font-medium text-brown">JPG / PNG / PDF - max. 2 Mo</p>
 				<Info newClass="w-3 h-auto" />
 			</div>
 		</div>
@@ -200,7 +198,7 @@
 			</CheckboxField>
 		</div>
 		{#if errors.global}
-			<p class="text-mention text-red text-left font-extrabold">
+			<p class="text-left text-mention font-extrabold text-red">
 				{errors.global}
 			</p>
 		{/if}
@@ -208,12 +206,12 @@
 			{isSubmitting ? 'Jeu en cours' : 'Je tente ma chance !'}
 		</button>
 	</form>
-	<p class="text-brown text-mention my-3 text-center font-medium">
+	<p class="my-3 text-center text-mention font-medium text-brown">
 		Attention, après validation du dépôt, vous ne pourrez plus modifier vos téléchargements.
 		Conservez votre preuve originale d’achat, elle peut vous être demandée dans le cadre de la
 		gestion de l’offre.
 	</p>
-	<p class="text-brown text-mention text-center font-medium">
+	<p class="text-center text-mention font-medium text-brown">
 		Le groupe Goûters Magiques traite les données recueillies sur la base de votre consentement pour
 		gérer votre participation à ce Jeu.
 	</p>

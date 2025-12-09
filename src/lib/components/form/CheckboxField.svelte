@@ -43,7 +43,7 @@
 		</span>
 
 		<span
-			class="text-mention flex-1 text-left font-medium transition-colors"
+			class="flex-1 text-left text-mention font-medium transition-colors"
 			class:text-red={error}
 			class:text-brown={!error}
 		>

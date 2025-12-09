@@ -14,10 +14,8 @@
 </script>
 
 {#if isMobile}
-	<div
-		class="-ml-6 flex w-[calc(100%+4.8rem)] items-end justify-between gap-3 overflow-hidden"
-	>
-		<div class="relative flex-1 flex justify-center">
+	<div class="-ml-6 flex w-[calc(100%+4.8rem)] items-end justify-between gap-3 overflow-hidden">
+		<div class="relative flex flex-1 justify-center">
 			<img src="/img/girafe1-hp.webp" alt="girage" class="h-auto w-full" />
 			<Balloon newClass="rotate-[-29.37deg] w-[27.3%] left-[15%] top-[3.5%] absolute" />
 		</div>
