@@ -18,8 +18,7 @@
 			isMobile = true;
 		}
 
-		// const state = gameService.getGameState();
-		const state = 'active';
+		const state = gameService.getGameState();
 		gameStore.setState(state);
 	});
 </script>
