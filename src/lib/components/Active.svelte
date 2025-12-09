@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Form from './Form.svelte';
-	import MobileArtifice1 from './MobileArtifice1.svelte';
-	import MobileArtifice2 from './MobileArtifice2.svelte';
+	import MobileArtifice1 from './MobileArtificeHP1.svelte';
+	import MobileArtifice2 from './MobileArtificeHP2.svelte';
 </script>
 
 <div class="text-center">
