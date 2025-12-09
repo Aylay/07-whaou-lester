@@ -269,7 +269,7 @@
 						navigateur peut également être paramétré pour vous signaler les cookies déposés dans
 						votre terminal et vous demander de les accepter ou non (au cas par cas ou en totalité).
 						Nous vous invitons à consulter les paramètres de chacun des navigateurs pour
-						activer/désactiver les cookies
+						activer/désactiver les cookies.
 					</p>
 				</div>
 			</div>
