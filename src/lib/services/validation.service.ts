@@ -131,7 +131,7 @@ export const validationService = {
 
 	isValidImageFile(file: File): boolean {
 		const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'application/pdf'];
-		const maxSize = 2 * 1024 * 1024; // 5MB
+		const maxSize = 4 * 1024 * 1024;
 
 		if (!validTypes.includes(file.type)) {
 			return false;
