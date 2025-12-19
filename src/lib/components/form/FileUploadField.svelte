@@ -4,7 +4,7 @@
 		value = $bindable(null),
 		error = '',
 		accept = 'image/jpeg,image/jpg,image/png,application/pdf',
-		maxSize = 2 * 1024 * 1024,
+		maxSize = 4 * 1024 * 1024,
 		disabled = false,
 		buttonText = 'Parcourir',
 		placeholder = "Télécharger la preuve d'achat"

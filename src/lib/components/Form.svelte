@@ -170,7 +170,7 @@
 				error={errors.receiptFile}
 			/>
 			<div class="mt-1 flex items-center justify-between">
-				<p class="text-mention font-medium text-brown">JPG / PNG / PDF - max. 2 Mo</p>
+				<p class="text-mention font-medium text-brown">JPG / PNG / PDF - max. 4 Mo</p>
 				<Info newClass="w-3 h-auto" />
 			</div>
 		</div>
